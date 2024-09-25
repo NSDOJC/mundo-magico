@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mundo magico</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <main>
+        <div class="passo ativo" id="passo-0">
+            <img src="passo0.jpg" alt=>
+            <p>
+                No meu sonho descobri um mundo magico, nos Estados Unidos, e resolvi ir atras desse mundo magico
+            </p>
+            <button class="btn-proximo" data-proximo="1">
+                Boston
+            </button>
+            <button class="btn-proximo" data-proximo="2">
+                Nova york
+            </button>
+        </div>
+
+        <div class="passo" id="passo-1">
+            <p>
+                ir para boston uma cidade linda e fria, e procurar dicas
+            </p>
+            <button class="btn-proximo" data-proximo="3">
+                Descobrir a dica da onde fica esse mundo
+            </button>
+            <button class="btn-proximo" data-proximo="4">
+                Desistir e voltar para casa
+            </button>
+        </div>
+
+        <div class="passo" id="passo-2">
+            <p>
+                Ir para nova york, ver a torre e ver muitas neves, e procurar dicas
+            </p>
+            <button class="btn-proximo" data-proximo="5">
+                Procurar uma pista perto da cafeteria
+            </button>
+            <button class="btn-proximo" data-proximo="6">
+                Procurar pistas no parque de nova york
+            </button>
+        </div>
+
+        <div class="passo" id="passo-3">
+            <p>
+                Encontrei uma dica que seria proximo a torre
+            </p>
+            <button class="btn-proximo" data-proximo="9">
+                seguir a torre a esquerda
+            </button>
+            <button class="btn-proximo" data-proximo="10">
+                seguir a torre a direita
+            </button>
+        </div>
+
+        <div class="passo" id="passo-4">
+            <p>
+                Voltar para casa sem encontrar esse mundo incrivel
+            </p>
+        </div>
+
+        <div class="passo" id="passo-5">
+            <p>
+                Estava lotada sendo impossivel de achar algo, retornar ao parque
+            </p>
+            <button class="btn-proximo" data-proximo="6">
+                Procurar pistas no parque de nova york
+            </button>
+        </div>
+
+        <div class="passo" id="passo-6">
+            <p>
+                Procurar alguem para me ajudar a encontrar
+            </p>
+            <button class="btn-proximo" data-proximo="11">
+                Seguir a instrução
+            </button>
+        </div>
+
+        <div class="passo" id="passo-9">
+            <p>
+                Seguindo a torre a esquerda não obtivemos sucesso
+            </p>
+            <button class="btn-proximo" data-proximo="10">
+                seguir a torre a direita
+            </button>
+        </div>
+
+        <div class="passo" id="passo-10">
+            <p>
+                Voce encontrou o mundo magico
+            </p>
+        </div>
+
+    </main>
+    <script src="scrip.js"></script>
+</body>
+
+</html>
